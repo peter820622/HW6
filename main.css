@@ -1,0 +1,125 @@
+    .header {
+        font-family: Arial;
+        font-size: 20px;
+        text-align: center;
+        line-height: 100px;
+        color: white;
+        background: rgb(0, 170, 238);
+        width: 100%;
+        height: 100px;
+    }
+    
+    .navblock {
+        font-family: Arial;
+        font-size: 20px;
+        text-align: center;
+        line-height: 50px;
+        color: white;
+        background: rgb(253, 207, 0);
+        width: 100%;
+        height: 50px;
+    }
+    
+    .sidebar {
+        float: left;
+        font-family: Arial;
+        font-size: 20px;
+        text-align: center;
+        line-height: 400px;
+        color: white;
+        background: rgb(36, 104, 179);
+        width: 25%;
+        height: 400px;
+    }
+    
+    .main {
+        float: left;
+        font-family: Arial;
+        font-size: 20px;
+        text-align: center;
+        line-height: 400px;
+        color: white;
+        background-color: rgb(121, 200, 74);
+        width: 75%;
+        height: 400px;
+    }
+    
+    .footer {
+        float: left;
+        font-family: Arial;
+        font-size: 20px;
+        text-align: center;
+        line-height: 100px;
+        color: white;
+        background: rgb(255, 131, 0);
+        width: 100%;
+        height: 100px;
+    }
+    
+    nav {}
+    
+    .nav>li {
+        display: inline-block;
+        position: relative;
+        font-family: 微軟正黑體;
+        font-size: 15px;
+        padding-left: 100px;
+        padding-right: 35px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        margin-left: 20px;
+        width: 100px;
+        border: 1px dotted black;
+        border-radius: 10px;
+    }
+    
+    .nav>li:hover {
+        background: black;
+        color: white;
+    }
+    
+    .nav>li:hover .submenu {
+        display: block;
+    }
+    
+    .submenu {
+        width: 235px;
+        padding: 0px;
+        position: absolute;
+        left: -1px;
+        top: 100%;
+        display: none;
+        border: 0px;
+        border-radius: 10px;
+        background: rgb(238,238,238);
+        color: black;
+    }
+    
+    .submenu li {
+        list-style-type: none;
+        cursor: pointer;
+        padding-left: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-family: 微軟正黑體;
+    }
+    
+    .submenu li:hover{
+        background: white;
+        color: gray;
+        border-radius: 10px;
+    }
+
+.add {
+    width: 50px;
+    height: 50px;
+    padding: 20px;
+    position: fixed;
+    right: 50px;
+    bottom: 50px;
+    color: #fff;
+    font-size: 50px;
+    background: rgb(220,69,55);
+    border-radius: 50%;
+    text-align: center;
+}
